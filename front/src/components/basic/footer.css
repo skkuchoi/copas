@@ -1,0 +1,58 @@
+.main-Footer {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  color: black;
+  background-color: rgba(177, 176, 176, 0.436);
+  padding-top: 20px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.col {
+  margin-left: 40px;
+}
+
+.col > h4 {
+  margin-left: 40px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.col > ul > li {
+  list-style: none;
+} 
+
+.major{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.address .copyright{
+  font-size: 15px;
+}
+
+.copyright{
+  letter-spacing: -1px;
+}
+
+.ccl {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column; 
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+.phone{ 
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  width: fit-content;
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+
+.email{
+  font-size: 15px;
+  padding-left: 30px;
+  margin-top: 15px;
+}

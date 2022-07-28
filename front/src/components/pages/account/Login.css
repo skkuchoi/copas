@@ -1,0 +1,25 @@
+.login{
+    display : flex;
+    flex-direction: row;
+  
+  }
+  
+  .password{
+    display : flex;
+    flex-direction : row;
+    
+    
+  }
+  
+  #root{
+    background-color: gray;
+  }
+  
+  .icon{
+    position : relative;
+    top : 20px;
+    width: 50px;
+    margin-right: 20px;
+    background-color: white;
+    color: #323131ed;
+  }
